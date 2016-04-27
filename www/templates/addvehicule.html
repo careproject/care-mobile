@@ -1,0 +1,35 @@
+<ion-view view-title="Add a vehicule">
+  <ion-content>
+    <div class="addvehicule-logo">
+      <img src="img/addvehicule.svg">
+    </div>
+    
+    <h1 class="addvehicule-title">Add my vehicule(s)</h1>
+    <div class="addvehicule-description">To improve your next trips, you can specify your car and/or your motorbike.
+     
+    </div> 
+      
+    <label class="addvehicule-item item item-input">
+      <ion-checkbox class="addvehicule-checkbox"></ion-checkbox>
+      <span class="input-label">Conso. C0<sub>2</sub></span>
+      <input type="text" value="0">
+    </label>
+      
+    <label class="addvehicule-item item item-input">
+      <ion-checkbox class="addvehicule-checkbox"></ion-checkbox> 
+      <span class="input-label">Conso. C0<sub>2</sub></span>
+      <input type="text" value="0">
+    </label>
+    
+    <br><br>
+    
+    <button class="button button-block button-next" ng-click="goAppleCare()">
+      Ok, it's done
+    </button>
+    
+    <button class="button button-block button-skip" ng-click="goAppleCare()">
+      Don't have any or maybe later
+    </button>
+  </ion-content>
+      
+</ion-view>
